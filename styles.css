@@ -6,6 +6,7 @@ body{
     flex-direction: column;
 }
 
+/* Header */
 .header{
     background-color: #1F2937;
     display: flex;
@@ -73,6 +74,7 @@ p{
     display: flex;
     justify-content: center;
     gap: 35px;
+    flex-wrap: wrap;
     margin-bottom: 100px;
 }
 .placeholder{
@@ -134,7 +136,6 @@ p{
 
 .subcontent-four h2{
     margin: 0;
-    
 }
 
 .sign-up-four{
@@ -151,7 +152,7 @@ p{
     align-self: center;
 }
 
-/* Section five */
+/* Footer */
 
 .footer{
     background-color: #1F2937;
