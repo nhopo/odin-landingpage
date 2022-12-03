@@ -115,20 +115,26 @@ p{
 
 .content-four{
     background-color:#3882F6;
-    padding: 50px 100px;
-    margin: 80px 280px;
-    border-radius: 10px;
     color: #f9faf8;
+    border-radius: 10px;
+    margin: 80px auto;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.subcontent-four{
+    padding: 20px 30px;
+}
 
-h2{
+.subcontent-four h2{
     margin: 0;
+    
 }
 
-.sign-up-two{
+.sign-up-four{
     background-color: #3882F6;
     border-color: #f9faf8;
     border: solid;
@@ -136,7 +142,9 @@ h2{
     color: #f9faf8;
     width: 105px;
     height: 30px;
+    margin: 20px 30px;
     border-radius: 7px;
+    flex-shrink: 0;
     align-self: center;
 }
 
