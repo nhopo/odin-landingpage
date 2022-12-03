@@ -96,14 +96,17 @@ p{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding:100px 500px;
+    /* justify-content: center; */
+    padding: 50px;
+    gap: 10px;
 }
 
 .quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    max-width: 1000px;
+    align-self: center;
 }
 
 .author-quote{
