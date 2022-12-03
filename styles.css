@@ -4,6 +4,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+
 }
 
 /* Header */
@@ -11,7 +12,7 @@ body{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 15px 280px;
+    padding: 15px 230px;
 }
 
 .header-logo{
@@ -46,9 +47,19 @@ p{
     background-color: #1F2937;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 100px 280px;
+    justify-content: space-around;
+    padding: 100px 30px;
 }
+
+.subcontent-one{
+    max-width: 1000px;
+    padding: 30px;
+}
+
+img{
+    padding: 30px;
+}
+
 
 .sign-up{
     background-color: #3882F6;
